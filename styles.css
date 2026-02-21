@@ -10,11 +10,11 @@
     --color-parchment: #e8e4dc;
     --color-gold: #a68b4b;
     --color-gold-muted: #c4a962;
-    --color-text: #2c2c2c;
+    --color-text: #000;
     --color-text-muted: #5a5a5a;
     --font-serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
     --font-sans: 'Source Sans 3', -apple-system, BlinkMacSystemFont, sans-serif;
-    --max-width: 720px;
+    --max-width: 1000px;
     --spacing-unit: 1.5rem;
 }
 
@@ -66,7 +66,7 @@ body {
     letter-spacing: 0.15em;
     text-transform: uppercase;
     margin: 0.5rem 0 0;
-    opacity: 0.85;
+    color: #fff;
 }
 
 /* Navigation */
@@ -135,7 +135,7 @@ h3 {
 .lead {
     font-size: 1.15rem;
     font-weight: 400;
-    color: var(--color-charcoal);
+    color: #000;
     margin-bottom: 1.25rem;
 }
 
