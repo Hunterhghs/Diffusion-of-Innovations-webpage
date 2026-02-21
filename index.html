@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diffusion of Innovations | Development Economics</title>
+    <meta name="description" content="An overview of the Diffusion of Innovations theory and its applications in Development Economics.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="site-title">Diffusion of Innovations</h1>
+            <p class="site-subtitle">A Framework for Development Economics</p>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#elements">Core Elements</a></li>
+                <li><a href="#adopters">Adopter Categories</a></li>
+                <li><a href="#process">Adoption Process</a></li>
+                <li><a href="#development">Development Context</a></li>
+                <li><a href="#references">References</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="overview" class="section section-hero">
+            <div class="container">
+                <h2>Foundational Theory</h2>
+                <p class="lead">
+                    Diffusion of Innovations is a seminal theory developed by Everett M. Rogers that examines how new ideas, 
+                    technologies, and practices spread through social systems over time. First published in 1962, it has become 
+                    one of the most influential frameworks in behavioral science—with particular relevance to understanding 
+                    technological adoption, productivity gaps, and development outcomes in emerging economies.
+                </p>
+                <p>
+                    Rogers defines diffusion as <em>the process by which an innovation is communicated through certain channels 
+                    over time among the participants in a social system</em>. The theory synthesizes research from anthropology, 
+                    rural sociology, education, and medical sociology, and has been applied extensively in development studies, 
+                    agricultural extension, and health promotion.
+                </p>
+            </div>
+        </section>
+
+        <section id="elements" class="section">
+            <div class="container">
+                <h2>Core Elements of Diffusion</h2>
+                <p>Rogers identified five main elements that influence the spread of a new idea:</p>
+                
+                <div class="elements-grid">
+                    <article class="element-card">
+                        <h3>Innovation</h3>
+                        <p>Any idea, practice, or object perceived as new by an individual or unit of adoption. Innovations are evaluated by potential adopters along dimensions of relative advantage, compatibility, complexity, trialability, and observability.</p>
+                    </article>
+                    <article class="element-card">
+                        <h3>Adopters</h3>
+                        <p>The minimal unit of analysis—typically individuals, but also organizations, clusters within social networks, or countries. Adopter characteristics (motivation, ability, connectedness) shape adoption likelihood.</p>
+                    </article>
+                    <article class="element-card">
+                        <h3>Communication Channels</h3>
+                        <p>Mechanisms that allow the transfer of information between parties. Diffusion requires established communication patterns; mass media and interpersonal networks serve distinct roles in the process.</p>
+                    </article>
+                    <article class="element-card">
+                        <h3>Time</h3>
+                        <p>The passage of time is necessary for adoption—innovations are rarely adopted instantaneously. In Ryan and Gross's 1943 hybrid corn study, adoption occurred over more than a decade.</p>
+                    </article>
+                    <article class="element-card">
+                        <h3>Social System</h3>
+                        <p>The combination of external influences (mass media, mandates) and internal influences (social relationships, opinion leadership). Social structure and norms constrain or facilitate diffusion.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="adopters" class="section section-alt">
+            <div class="container">
+                <h2>Adopter Categories</h2>
+                <p>Diffusion follows an S-curve over time. Rogers classified adopters into five categories based on innovativeness:</p>
+                
+                <div class="adoption-curve">
+                    <svg viewBox="0 0 600 280" class="curve-svg" aria-label="Adoption curve showing innovators, early adopters, early majority, late majority, and laggards">
+                        <defs>
+                            <linearGradient id="curveGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" style="stop-color:#1a2744;stop-opacity:0.15"/>
+                                <stop offset="100%" style="stop-color:#1a2744;stop-opacity:0"/>
+                            </linearGradient>
+                        </defs>
+                        <path d="M 0 260 Q 80 250 120 240 Q 200 200 250 160 Q 350 80 400 50 Q 500 10 600 0 L 600 280 L 0 280 Z" fill="url(#curveGradient)"/>
+                        <path d="M 0 260 Q 80 250 120 240 Q 200 200 250 160 Q 350 80 400 50 Q 500 10 600 0" fill="none" stroke="#1a2744" stroke-width="2"/>
+                        <text x="30" y="270" class="curve-label">Innovators</text>
+                        <text x="100" y="255" class="curve-label">Early Adopters</text>
+                        <text x="220" y="200" class="curve-label">Early Majority</text>
+                        <text x="350" y="100" class="curve-label">Late Majority</text>
+                        <text x="520" y="30" class="curve-label">Laggards</text>
+                    </svg>
+                </div>
+
+                <div class="adopter-table-wrapper">
+                    <table class="adopter-table">
+                        <thead>
+                            <tr>
+                                <th>Category</th>
+                                <th>Characteristics</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Innovators</strong></td>
+                                <td>Willing to take risks; highest social status; financial liquidity; closest contact to scientific sources. Risk tolerance allows adoption of technologies that may fail.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Early Adopters</strong></td>
+                                <td>Highest degree of opinion leadership; higher social status and education; judicious in adoption choices; maintain central communication position.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Early Majority</strong></td>
+                                <td>Adopt after significantly longer period than innovators; above average social status; contact with early adopters; seldom opinion leaders.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Late Majority</strong></td>
+                                <td>Skeptical; adopt after average participant; below average social status; little financial liquidity; little opinion leadership.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Laggards</strong></td>
+                                <td>Last to adopt; focused on traditions; lowest social status and financial liquidity; oldest among adopters; limited social contact.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <p class="note">
+                    The point at which an innovation reaches <strong>critical mass</strong>—when adoption becomes self-sustaining—often lies at the boundary between early adopters and early majority. This "marketing chasm" represents the gap between niche appeal and mass adoption.
+                </p>
+            </div>
+        </section>
+
+        <section id="process" class="section">
+            <div class="container">
+                <h2>Innovation-Decision Process</h2>
+                <p>Individuals move through five stages when deciding whether to adopt an innovation:</p>
+                
+                <ol class="process-list">
+                    <li>
+                        <strong>Knowledge</strong> — First exposure to the innovation; individual lacks information and has not yet sought details.
+                    </li>
+                    <li>
+                        <strong>Persuasion</strong> — Active interest; individual seeks related information and evaluates the innovation.
+                    </li>
+                    <li>
+                        <strong>Decision</strong> — Weighing advantages and disadvantages; deciding to adopt or reject. Most difficult stage to observe empirically.
+                    </li>
+                    <li>
+                        <strong>Implementation</strong> — Employing the innovation; determining usefulness; may search for further information.
+                    </li>
+                    <li>
+                        <strong>Confirmation</strong> — Finalizing the decision; seeking reassurance; may experience cognitive dissonance if negative information emerges.
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="development" class="section section-alt">
+            <div class="container">
+                <h2>Development Economics Context</h2>
+                <p>
+                    The diffusion framework has particular relevance for developing countries. Research demonstrates that 
+                    diffusion patterns can widen socio-economic and informational gaps within populations—the so-called 
+                    <em>digital divide</em> and analogous gaps in agricultural technology, health practices, and financial inclusion.
+                </p>
+                
+                <div class="development-points">
+                    <article class="dev-point">
+                        <h3>Productivity Gaps</h3>
+                        <p>Studies examine how technological innovation and diffusion of best-practice techniques affect productivity gaps between developed and developing countries. Uneven diffusion contributes to persistent income divergence.</p>
+                    </article>
+                    <article class="dev-point">
+                        <h3>Agricultural Extension</h3>
+                        <p>The agricultural extension model—disseminating hybrid seeds, improved techniques, and pest management—represents a practical application of diffusion principles. Ryan and Gross's 1943 Iowa hybrid corn study remains foundational.</p>
+                    </article>
+                    <article class="dev-point">
+                        <h3>Health & Sanitation</h3>
+                        <p>Diffusion research informs health promotion, family planning, and sanitation campaigns. Failures—such as Rogers's Los Molinos boiling-water case in Peru—highlight the importance of compatibility with local norms and communication channels.</p>
+                    </article>
+                    <article class="dev-point">
+                        <h3>Contemporary Critiques</h3>
+                        <p>Modern research addresses pro-innovation bias, individual-blame bias, and equality concerns. Not all innovations benefit all groups equally; diffusion can reinforce existing inequalities when access is stratified.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="references" class="section">
+            <div class="container">
+                <h2>Key References</h2>
+                <ul class="references-list">
+                    <li>Rogers, E. M. (1962). <em>Diffusion of Innovations</em>. New York: Free Press.</li>
+                    <li>Rogers, E. M. (2003). <em>Diffusion of Innovations</em> (5th ed.). New York: Free Press.</li>
+                    <li>Ryan, B., & Gross, N. C. (1943). The diffusion of hybrid seed corn in two Iowa communities. <em>Rural Sociology</em>, 8(1), 15–24.</li>
+                    <li>Rogers, E. M. (1976). Communication and development: The passing of the dominant paradigm. <em>Communication Research</em>, 3(2), 213–240.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>Diffusion of Innovations in Development Economics — Informational resource</p>
+        </div>
+    </footer>
+</body>
+</html>
